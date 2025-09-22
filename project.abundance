@@ -6,10 +6,46 @@
     "uniqueID": "decd9514-fa8b-49ad-b680-2aaf10b00d00",
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "ad4c172e-aa30-4882-98ab-cd0b17bf295e",
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "37603a32-be4b-489b-a663-4f84d7f1ff1c",
+                    "currentEquation": null
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4669312169312169,
+            "y": 0.5153203342618384,
+            "uniqueID": "37603a32-be4b-489b-a663-4f84d7f1ff1c",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "37603a32-be4b-489b-a663-4f84d7f1ff1c",
+            "ap2ID": "ad4c172e-aa30-4882-98ab-cd0b17bf295e"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
