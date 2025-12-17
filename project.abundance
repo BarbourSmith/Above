@@ -15,7 +15,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.4651810584958217,
       "uniqueID": "5c1b7ead-f4ec-4f1b-82cd-7918220ec7e2",
       "name": "B",
       "type": "geometry"
@@ -67,6 +67,16 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "B",
+      "ap1ID": "5c1b7ead-f4ec-4f1b-82cd-7918220ec7e2",
+      "ap2ID": "a8feb98c-c85b-44c6-9776-9e049080d20a"
+    },
+    {
+      "ap2Name": "A",
+      "ap1ID": "a7d58c99-d925-408f-8907-9dcba644dcdd",
+      "ap2ID": "a8feb98c-c85b-44c6-9776-9e049080d20a"
+    },
+    {
       "ap2Name": "number or geometry",
       "ap1ID": "a8feb98c-c85b-44c6-9776-9e049080d20a",
       "ap2ID": "ad4c172e-aa30-4882-98ab-cd0b17bf295e"
@@ -75,11 +85,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-11",
       "ap2ID": "id-15"
-    },
-    {
-      "ap2Name": "A",
-      "ap1ID": "id-15",
-      "ap2ID": "a8feb98c-c85b-44c6-9776-9e049080d20a"
     }
   ],
   "ioValues": [
